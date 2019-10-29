@@ -11,10 +11,6 @@
   background: #232B2B;
 }
 
-.logo:hover {
-  background: white;
-}
-
 .words {
   position: absolute;
   top: 50%;
@@ -268,20 +264,4 @@
   width: 3%;
   cursor: pointer;
   z-index: 10;
-}
-
-.end {
-  position: absolute;
-  top: 200vh;
-  height: 50%;
-  width: 100%;
-  background: black;
-}
-
-.second__logo {
-  position: absolute;
-  top: -5%;
-  left: 30%;
-  height: 100%;
-  width: 40%;
 }

@@ -92,7 +92,6 @@ class Home extends Component {
           </form>
         </div>
         <div className={`information--${this.state.active}`}>
-          <div className="information--title">About AutoNova</div>
           <div className="information--box">
             <img className="title--box--second" src={car} alt="sports car" />
             <div className="paragraph"> AutoNova will be the preeminent place to sell and buy auto parts online. List your own products to sell or buy a new part for your own car.
@@ -103,9 +102,6 @@ class Home extends Component {
             <div className="paragraph"> We are working hard to finish the site. Please subscribe with your email address so we can keep you updated on our progress!
             </div>
           </div>
-        </div>
-        <div className="end">
-          <img className="second__logo" src={logo} alt="logo"/>
         </div>
       </div>
     )}
