@@ -115,13 +115,13 @@
   .info {
     position: absolute;
     top: 10%;
-    left: 33%;
+    left: 25%;
     height: auto;
     width: auto;
     font-family: 'Work Sans', sans-serif;
     color: blue;
     font-size: 2vmax;
-    z-index: 8;
+    z-index: 12;
     background: white;
     border: solid .5px grey;
     padding: 2%;
@@ -144,7 +144,7 @@
     font-family: 'Work Sans', sans-serif;
     color: blue;
     font-size: 2vmax;
-    z-index: 8;
+    z-index: 12;
     background: white;
     border: solid .5px grey;
     padding: 2%;
@@ -189,7 +189,7 @@
   .information--box {
     position: absolute;
     background: white;
-    top: 20%;
+    top: 30%;
     left: 3%;
     height: 80%;
     width: 45%;
@@ -199,7 +199,7 @@
   .information--box--second {
     position: absolute;
     background: white;
-    top: 20%;
+    top: 30%;
     left: 51%;
     height: 80%;
     width: 45%;
@@ -248,9 +248,9 @@
   .facebook {
     position: fixed;
     top: 0%;
-    right: 5%;
-    height: 3%;
-    width: 3%;
+    right: 8%;
+    height: 5%;
+    width: 5%;
     cursor: pointer;
     z-index: 10;
   }
@@ -259,8 +259,8 @@
     position: fixed;
     top: 0%;
     right: 1%;
-    height: 3%;
-    width: 3%;
+    height: 5%;
+    width: 5%;
     cursor: pointer;
     z-index: 10;
   }
