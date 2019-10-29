@@ -4,7 +4,7 @@ const FormTile = props => {
     return(
       <div>
         <label className="form__email--text">
-          <input placeholder={"Add Email"} id="email" className= "form--text" onChange={props.handleChange}></input>
+            <input placeholder="Insert Email Here" id="email" className= "form--input" onChange={props.handleChange}/>
         </label>
       </div>
     )
