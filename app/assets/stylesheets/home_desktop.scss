@@ -1,37 +1,287 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 
 .logo {
   position: absolute;
   top: -5%;
   left: 2.5%;
-  height: 20vmax;
-  width: 20vmax;
+  height: 42%;
+  width: 25%;
   z-index: 5;
+  background: #232B2B;
+}
+
+.logo:hover {
+  background: white;
+}
+
+.words {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 30%;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5vmax;
+}
+
+.words--under {
+  position: absolute;
+  top: 65%;
+  left: 1.5%;
+  width: 26%;
+  height: auto;
+  text-align: center;
+  color: #AAAAAA;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3vmax;
 }
 
 .background {
-  height: 130vh;
+  height: 100vh;
   width: 100vw;
-  opacity: 0.6;
+  opacity: 0.8;
   z-index: 4;
 }
 
-.form {
+.form--first {
   position: absolute;
-  top: 90%;
+  height: 0%;
+  width: 0%;
+  overflow: hidden;
+}
+
+.form--second {
+  position: absolute;
+  top: 135%;
   width: 40%;
   height: 20%;
   left: 30%;
   color: white;
   text-align: center;
+  z-index: 10;
+}
+
+.bottom {
+  top: 100vh;
+  width: 100vw;
+  height: 100vh;
+  z-index: 6;
+}
+
+.cover {
+  position: absolute;
+  top: 100vh;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  opacity: 0.5;
+  z-index: 7;
 }
 
 .form__title {
-  background: #666666;
   font-family: 'Roboto', sans-serif;
   font-size: 2.5vmax;
 }
 
-.form--text {
+.email--form {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  height: auto;
+}
+
+.submit--email {
+  position: absolute;
+  left: 38%;
+  top: 85%;
+  width: 25%;
+  height: 75px;
+  text-align: center;
+  background: grey;
+  font-size: 1vmax;
+  color: white;
+  border: solid 1px black;
+  cursor: pointer;
+}
+
+.submit--email:hover {
+  background: white;
   color: black;
+  border: solid 1px black;
+  cursor: pointer;
+}
+
+.info {
+  position: absolute;
+  top: 10%;
+  left: 33%;
+  height: auto;
+  width: auto;
+  font-family: 'Work Sans', sans-serif;
+  color: blue;
+  font-size: 2vmax;
+  z-index: 8;
+  background: white;
+  border: solid .5px grey;
+  padding: 2%;
+  cursor: pointer;
+}
+
+.info:hover {
+  background: black;
+  color: white;
+  border: solid .5px white;
+  cursor: pointer;
+}
+
+.form--button {
+  position: absolute;
+  top: 10%;
+  left: 53%;
+  height: auto;
+  width: auto;
+  font-family: 'Work Sans', sans-serif;
+  color: blue;
+  font-size: 2vmax;
+  z-index: 8;
+  background: white;
+  border: solid .5px grey;
+  padding: 2%;
+  cursor: pointer;
+}
+
+.form--button:hover {
+  background: black;
+  color: white;
+  border: solid .5px white;
+  cursor: pointer;
+}
+
+.information--first {
+  position: absolute;
+  top: 130%;
+  left: 20%;
+  height: 60%;
+  width: 60%;
+  z-index: 9;
+  opacity: 0.8;
+}
+
+.information--second {
+  position: absolute;
+  height: 0%;
+  width: 0%;
+  overflow: hidden;
+}
+
+.information--title {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  padding: 1%;
+  color: blue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vmax;
+  text-align: center;
+}
+
+.information--box {
+  position: absolute;
+  background: white;
+  top: 20%;
+  left: 7.5%;
+  height: 80%;
+  width: 40%;
+  border: solid 3px lightblue;
+}
+
+.information--box--second {
+  position: absolute;
+  background: white;
+  top: 20%;
+  left: 52.5%;
+  height: 80%;
+  width: 40%;
+  border: solid 3px lightblue;
+}
+
+.title--box {
+  position: absolute;
+  top: 3%;
+  left: 40%;
+  padding: 5%;
+  height: 25%;
+  width: 25%;
+}
+
+.title--box--second {
+  position: absolute;
+  top: 1%;
+  left: 32%;
+  padding: 5%;
+  height: 35%;
+  width: 35%;
+}
+
+.paragraph {
+  position: absolute;
+  top: 30%;
+  color: black;
+  padding: 5%;
+  border-top: solid 1px lightblue;
+  text-align: center;
+  font-size: 1.5vmax;
+  font-family: 'Roboto', sans-serif;
+}
+
+.socials {
+  position: absolute;
+  top: 0%;
+  left: 70%;
+  width: 300px;
+  height: 200px;
+  background: red;
+  z-index: 8;
+}
+
+.facebook {
+  position: fixed;
+  top: 0%;
+  right: 5%;
+  height: 3%;
+  width: 3%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.instagram {
+  position: fixed;
+  top: 0%;
+  right: 1%;
+  height: 3%;
+  width: 3%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.end {
+  position: absolute;
+  top: 200vh;
+  height: 50%;
+  width: 100%;
+  background: black;
+}
+
+.second__logo {
+  position: absolute;
+  top: -5%;
+  left: 30%;
+  height: 100%;
+  width: 40%;
 }
