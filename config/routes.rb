@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   end
 
   get '/', to: 'homes#index'
+  get '/second', to: 'homes#index'
 end
