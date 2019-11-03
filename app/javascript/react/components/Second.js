@@ -53,7 +53,7 @@ class Second extends Component {
 
   render() {
     return(
-      <div>
+      <div className="cover--second">
         <a href='https://www.facebook.com/Autonova-102904924468564/' className="facebook">
           <img src={facebook} alt="facebook"/>
         </a>
@@ -61,7 +61,7 @@ class Second extends Component {
           <img src={instagram} alt="instagram"/>
         </a>
         <div className= {`form__active`}>
-          <div className="form__title"> SUBSCRIBE FOR UPDATES </div>
+          <div className="form__title--second"> SUBSCRIBE FOR UPDATES </div>
           <form className = {`email--form`} onSubmit={this.handleSubmit}>
             <FormTile
             content={"Email"}
@@ -70,9 +70,10 @@ class Second extends Component {
             name="rating-score"
             handleChange= {this.handleChange}
             />
-            <input className="submit--email" type="submit" value="Subscribe"/>
+            <input className="submit--email--second" type="submit" value="Subscribe"/>
           </form>
         </div>
+        <div className="line"></div>
       </div>
     )}
   }
