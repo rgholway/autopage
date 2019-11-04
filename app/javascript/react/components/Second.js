@@ -74,6 +74,13 @@ class Second extends Component {
           </form>
         </div>
         <div className="line"></div>
+        <div className="clock">
+          <div className="right"></div>
+          <div className="top"></div>
+          <div className="bottom"></div>
+          <div className="left"></div>
+          <div className="tick"></div>
+        </div>
       </div>
     )}
   }
