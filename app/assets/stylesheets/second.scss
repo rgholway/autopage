@@ -36,15 +36,86 @@
 .line {
   position: absolute;
   top: -20%;
-  left: 45vw;
-  height: 130%;
+  left: 55vw;
+  height: 150%;
   width: 1%;
   background: black;
   -webkit-transform: rotate(15deg);
 }
 
 .cover--second {
-  height: 100vh;
-  width: 100vw;
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
+  z-index: 0;
 }
+
+.clock {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  height: 30vw;
+  width: 30vw;
+  border: solid .5px black;
+  border-radius: 50%;
+}
+
+.right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  width: 8vw;
+  height: 2px;
+  background: lightgrey;
+}
+
+.left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 8vw;
+  height: 2px;
+  background: lightgrey;
+}
+
+
+.top {
+  position: absolute;
+  top: 0%;
+  right: 50%;
+  width: 2px;
+  height: 8vw;
+  background: lightgrey;
+}
+
+.bottom {
+  position: absolute;
+  top: 73%;
+  right: 50%;
+  width: 2px;
+  height: 8vw;
+  background: lightgrey;
+}
+
+.tick {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 50%;
+  height: 3px;
+  background: red;
+  -webkit-transform: rotate(0deg);
+  animation: ticking 4s;
+}
+
+@keyframes ticking {
+      from {
+        -webkit-transform: rotate(0deg);
+
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
