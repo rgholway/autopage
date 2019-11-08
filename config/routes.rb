@@ -9,4 +9,5 @@ Rails.application.routes.draw do
 
   get '/', to: 'homes#index'
   get '/second', to: 'homes#index'
+  get '/third', to: 'homes#index'
 end
